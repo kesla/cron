@@ -1,3 +1,5 @@
-# hook.io-cron
+# Unreleased, please move along.
 
-*Emit arbitrary Hook.io events with arbitrary data on specified time intervals*
+## hook.io-cron
+
+*Easily Emit arbitrary Hook.io events with arbitrary JSON data on arbitrary time intervals*
