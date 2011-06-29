@@ -1,0 +1,21 @@
+{
+  "author": "Marak Squires <marak.squires@gmail.com>",
+  "name": "hook.io-cron",
+  "description": "emit arbitrary Hook.io events with arbitrary data on specified time intervals",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Marak/hook.io-cron.git"
+  },
+  "bin": {
+     "hookio-cron": "./bin/cron"
+   },
+  "main": "./lib/cron",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io" : "0.4.x"
+  },
+  "devDependencies": {}
+}
