@@ -1,6 +1,9 @@
 #!/usr/bin/env node
-
 var CronHook = require('../lib/cron').CronHook;
 
-var myhook = new CronHook( { name: "CronHook" } );
+var myhook = new CronHook({
+  name: "CronHook",
+  debug: true
+});
+
 myhook.start();

@@ -3,19 +3,19 @@
   "jobs" : [
     
     {
-      "event": "o.hello",
+      "event": "*::hello",
       "data": {
         "prop": "val"
       }
     },
     {
-      "event": "o.test",
+      "event": "*::test",
       "data": {
         "prop2": "val2"
       }
     },
     {
-      "event": "o.hellow",
+      "event": "*::foo",
       "data": {
         "prop3": "val3"
       }
