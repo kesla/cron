@@ -1,5 +1,17 @@
-# Unreleased, please move along.
-
 ## hook.io-cron
 
-*Easily Emit arbitrary Hook.io events with arbitrary JSON data on arbitrary time intervals*
+*emit arbitrary Hook.io events with arbitrary data on specified time intervals*
+
+## Hook.io Events Names
+
+**addJob** *adds a new job to be executed on a set interval*:
+
+```javascript
+
+myHook.emit('*::addJob', {
+  "event": "*::foo",
+  "data": {
+    "myprop": "myval"
+  }
+});
+```
