@@ -1,26 +1,22 @@
 {
-  
   "jobs" : [
-    
     {
-      "event": "*::hello",
+      "event": "hello",
       "data": {
         "prop": "val"
       }
     },
     {
-      "event": "*::test",
+      "event": "test",
       "data": {
         "prop2": "val2"
       }
     },
     {
-      "event": "*::foo",
+      "event": "foo",
       "data": {
         "prop3": "val3"
       }
     }
-
   ]
-  
 }

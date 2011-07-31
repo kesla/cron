@@ -2,16 +2,34 @@
 
 *emit arbitrary Hook.io events with arbitrary data on specified time intervals*
 
-## Hook.io Events Names
+## Hook Events Names
 
 **addJob** *adds a new job to be executed on a set interval*:
 
-```javascript
+## Hook config.json data
 
-myHook.emit('*::addJob', {
-  "event": "*::foo",
-  "data": {
-    "myprop": "myval"
-  }
-});
+``` js
+{
+  "jobs" : [
+    {
+      "event": "hello",
+      "data": {
+        "prop": "val"
+      }
+    },
+    {
+      "event": "test",
+      "data": {
+        "prop2": "val2"
+      }
+    },
+    {
+      "event": "foo",
+      "data": {
+        "prop3": "val3"
+      }
+    }
+  ]
+}
+
 ```

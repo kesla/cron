@@ -2,7 +2,7 @@
 var CronHook = require('../lib/cron').CronHook;
 
 var myhook = new CronHook({
-  name: "CronHook",
+  name: "the-cron-hook",
   debug: true
 });
 
