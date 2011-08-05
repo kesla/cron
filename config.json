@@ -4,19 +4,22 @@
       "event": "hello",
       "data": {
         "prop": "val"
-      }
+      },
+      "every": "seconds"
     },
     {
       "event": "test",
       "data": {
         "prop2": "val2"
-      }
+      },
+      "every": "2 second"
     },
     {
       "event": "foo",
       "data": {
         "prop3": "val3"
-      }
+      },
+      "every": "3 second"
     }
   ]
 }
